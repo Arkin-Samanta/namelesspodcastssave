@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nameless Podcasts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Nameless Productions</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="podcasts.html">Podcasts</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Animations</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1400&q=80">
+
+    <div class="overlay"></div>
+
+    <div class="shapes">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+
+        <div class="rect r1"></div>
+        <div class="rect r2"></div>
+    </div>
+
+    <div class="hero-text">
+        <h1>Latest Podcasts.</h1>
+        <p>Explore our latest nameless podcasts.</p>
+    </div>
+
+</section>
+
+<div class="button-container">
+    <button type="button" class="button1" onclick="showSection('podcasts')">Podcasts</button>
+    <button type="button" class="button2" onclick="showSection('roundtable')">Roundtable</button>
+    <button type="button" class="button3" onclick="showSection('blurbs')">Blurbs</button>
+</div>
+
+<div id="podcasts-section">
+
+<section class="content">
+
+    <div class="schedule">
+
+        <h2>Production Schedule</h2>
+
+        <div class="item">
+            <h4>Monologue Episode #1</h4>
+            <p>By Isabella</p>
+            <div class="time">May 15th</div>
+        </div>
+
+        <div class="item">
+            <h4>Monologue Episode #2</h4>
+            <p>By Jenna</p>
+            <div class="time">May 16th</div>
+        </div>
+
+        <div class="item">
+            <h4>Monologue Episode #3</h4>
+            <p>By Arkin</p>
+            <div class="time">May 17th</div>
+        </div>
+
+    </div>
+
+    <div class="media-box">
+
+        <div class="profile-row">
+
+            <div class="profile-block">
+                <div class="image-box">
+                    <audio class="layout-audio" controls>
+                        <source src="0601 (1).MP3">
+                    </audio>
+                </div>
+
+                <table>
+                    <tr><td>Interview 1</td></tr>
+                    <tr><td>Isabella & Arkin</td></tr>
+                </table>
+            </div>
+
+            <div class="profile-block">
+                <div class="image-box">
+                    <audio class="layout-audio" controls>
+                        <source src="0530 (1).MP3">
+                    </audio>
+                </div>
+
+                <table>
+                    <tr><td>Interview 2</td></tr>
+                    <tr><td>Isabella & Jenna</td></tr>
+                </table>
+            </div>
+
+            <div class="profile-block">
+                <div class="image-box">
+                    <audio class="layout-audio" controls>
+                        <source src="copy_1130BBC8-BE4F-427D-9C41-4B63E922688B (1).MOV">
+                    </audio>
+                </div>
+
+                <table>
+                    <tr><td>Team Movies</td></tr>
+                    <tr><td>Isabella Hernandez</td></tr>
+                </table>
+            </div>
+
+            <div class="profile-block">
+                <div class="image-box">
+                    <audio class="layout-audio" controls>
+                        <source src="copy_825B60EE-892F-4A17-8E60-DFAB30EE1CAA.mov">
+                    </audio>
+                </div>
+
+                <table>
+                    <tr><td>Hollywood's Euphoria</td></tr>
+                    <tr><td>Jenna Aujla</td></tr>
+                </table>
+            </div>
+
+            <div class="profile-block">
+                <div class="image-box">
+                    <audio class="layout-audio" controls>
+                        <source src="0601 (2).MP3">
+                    </audio>
+                </div>
+
+                <table>
+                    <tr><td>Do We Let AI Take Over?</td></tr>
+                    <tr><td>Arkin Samanta</td></tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+<div id="roundtable-section" style="display:none;">
+
+<section class="content">
+
+    <div class="schedule">
+
+        <h2>Roundtable Episodes</h2>
+
+        <div class="item">
+            <h4></h4>
+            <p>Arkin, Isabella & Jenna</p>
+            <div class="time">Latest Episode</div>
+        </div>
+
+    </div>
+
+    <div class="table-box">
+
+        <h2>Roundtable Audio</h2>
+
+        <table class="custom-table">
+
+            <tr>
+                <th>Episode</th>
+                <th>Host</th>
+                <th>Audio</th>
+            </tr>
+
+ 
+
+            <tr>
+                <td>Roundtable</td>
+                <td>Arkin, Isabella & Jenna</td>
+                <td>
+                    <audio controls>
+                        <source src="copy_15FD2B94-43F5-4FCD-9AE8-85FBB71D645A (1).MOV">
+                    </audio>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</section>
+
+</div>
+
+<div id="blurbs-section" style="display:none;">
+
+<section class="content">
+
+    <div class="schedule">
+
+        <h2>Blurbs</h2>
+
+        <div class="item">
+            <h4>Latest Updates</h4>
+            <p>Production News</p>
+        </div>
+
+    </div>
+
+    <div class="table-box">
+
+        <h2>Production Notes</h2>
+
+        <textarea
+            style="width:100%; height:350px; background:#141414; color:white; border:1px solid rgba(225,87,186); padding:15px; border-radius:10px;"
+        >
+Inspired by Jubilee’s Middle Ground, this episode throws three perspectives into the ring to debate some of today’s most controversial gender issues—from TikTok feminism and “battle of the sexes” narratives to surrogacy, custody battles, etc. It’s part serious discussion, part controlled chaos, where hot takes meet actual nuance (and occasionally clash).This episode of No Thoughts, Just Drama dives headfirst into the chaotic world of PR relationships—where dating your co-star (or bandmate) might just be part of the job description. From fake romances turned marketing strategies to situationships that got way too real, Isabella sits down with Jenna Aujla and Arkin Samanta to unpack what really happens behind the scenes and how wildly different these can impact the lives of those involved. If you’ve ever had to pause a “teen” show because the dialogue made you physically cringe, this episode is made for you. Isabella dives into why mainstream teen movies feel so fake: from 30-year-olds playing sophomores to plots that recycle the same love triangle for the 500th time, it’s a brutally honest (and slightly chaotic) breakdown of the genre that explores how these portrayals impact real teenagers alongside music famous on the internet around 2020. 
+
+
+        </textarea>
+
+    </div>
+
+</section>
+
+</div>
+
+<script>
+function showSection(section){
+
+    document.getElementById("podcasts-section").style.display = "none";
+    document.getElementById("roundtable-section").style.display = "none";
+    document.getElementById("blurbs-section").style.display = "none";
+
+    if(section === "podcasts"){
+        document.getElementById("podcasts-section").style.display = "block";
+    }
+
+    if(section === "roundtable"){
+        document.getElementById("roundtable-section").style.display = "block";
+    }
+
+    if(section === "blurbs"){
+        document.getElementById("blurbs-section").style.display = "block";
+    }
+}
+</script>
+
+</body>
+</html>
